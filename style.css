@@ -1,0 +1,50 @@
+.color-body{
+    background-color: black;
+}
+
+.bg-custom{
+    background-color: #e88324;
+}
+
+.wheat-nav:hover{
+    border-bottom: 4px solid black;
+    transition: ease-in-out .25s;
+    color: black;
+}
+
+.nav-link:hover{
+    font-weight: bolder;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap');
+.titolo {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 100vh;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.h1 {
+  display: inline;
+  line-height: 48px;
+  font-size: 48px;
+  max-width: 60vw;
+  color: #ffffff;
+  font-weight: bold;
+}
+.special-effect {
+  transition: background-size .5s cubic-bezier(0.16, 1, 0.3, 1);
+  text-decoration: none;
+  padding-bottom: 50px;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%, #e88324 0%, #e88324 100.2% );
+  background-size: 0 28px;
+  background-repeat: no-repeat;
+  background-position: left 40%;
+}
+.special-effect:hover {
+  background-size: 100% 28px;
+}
+
+
